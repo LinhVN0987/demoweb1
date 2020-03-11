@@ -1,0 +1,150 @@
+
+body {
+	padding:0;
+	margin:0;
+	background-color: #f0f0f0;
+}
+#wrapper {
+	width:1200px;
+	height:auto;
+	/*border: 1px solid #000000;*/
+	margin:auto;
+}
+#header {
+	width: auto;/*1200px*/
+	height:120px;
+	border-radius: 7px;
+	background-image: url("../Images/anhbia/image6_bkg.jpg");
+	background-repeat: no-repeat;
+	background-position: center center;
+}
+#banner{
+	width: 1200px;
+	height: 800px;
+	border: 1px solid #000000;
+	background-image: url("../Images/anhbia/superheaa.png");
+	border-radius: 7px;
+}
+#menu{
+	width: 100%;
+	height: 30px;
+	/*border: 1px solid #beeeee;*/
+	border-radius: 7px;
+}
+#menu ul{
+	width: 100%;
+	/*height: 30px;*/
+	list-style: none;
+	/*border: 1px solid #000000;*/
+}
+#menu ul li{
+	float: left;
+	/*line-height: 2px;*/
+	margin-left: 37px;
+	/*text-align:center;*/
+
+}
+#menu ul li a{
+	color: #000000;
+	text-decoration: none;
+}
+#menu ul li:hover{
+	background-color: #beeeee;
+	font-size: 150%;
+}
+
+#content{
+	width: 100%;
+	height: auto;/**/
+	/*border: 1px solid #000000;*/
+	margin-top: 2px; 
+}
+#content #left{
+	width: 150px;
+	height:auto; /*800px;*/
+	/*border: 1px solid #000000;*/
+	float: left; 
+}
+#listbrands ul{
+	width: 100%;
+	height: auto;
+	list-style: none;
+	padding-left: 0px;
+}
+/*
+#listbrands ul li{
+	padding-bottom: 15px;
+	
+}
+*/
+#listbrands ul li a{
+	text-decoration: none;
+}
+
+#listbrands a:hover{
+	background-color: #beeeee;
+	font-size: 150%;
+}
+
+#listmenu ul{
+	width: 100%;
+	height: auto;
+	list-style: none;
+	padding-left:0px;
+}
+/*#listmenu ul li{
+	padding-bottom: 15px;
+	
+}*/
+#listmenu ul li a{
+	text-decoration: none;
+}
+
+#listmenu a:hover{
+	background-color: #beeeee;
+	font-size: 150%;
+}
+#right{
+	width: 1040px;
+	height: auto; /*800px;*/
+	/*border: 1px solid #08def6;*/
+	/*border-radius: 12px;*/
+	float: right;
+}
+#allproducts{
+	width: : auto;
+
+}
+#allproducts ul{
+	list-style: none;
+	
+}
+#allproducts ul li{
+	width: 270px;
+	height: auto;
+	border: 1px solid #ffffff;
+	border-radius: 7px;
+	text-align: center;
+	background-color: #ffffff;
+	
+	float: left;
+	margin: 20px;
+
+}
+#allproducts ul li a{
+text-decoration: none;
+}
+#allproducts ul li:hover{
+	background-color: #beeeee;
+}
+
+#clear{
+	clear: both;
+}
+
+#footer{
+	width: 100%;
+	height: 240px;
+	border: 1px solid #08def6;
+	border-radius: 7px;
+}
